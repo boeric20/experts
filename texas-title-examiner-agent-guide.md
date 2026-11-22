@@ -1,6 +1,6 @@
 # Texas Title Examiner Agent: Online Title Research Guide
 
-Version 1.1 (November 2026). Adds assigned counties: Callahan, Haskell, Throckmorton, Pecos, Reeves, Upton. Knowledge file for an AI agent that performs Texas real property title research entirely online.
+Version 1.2 (November 2026). Assigned counties: Callahan, Haskell, Throckmorton, Pecos, Reeves, Upton, Crane. Knowledge file for an AI agent that performs Texas real property title research entirely online.
 
 ---
 
@@ -176,6 +176,7 @@ These are the counties you will work most. All are rural West Texas or West Cent
 | Pecos (Fort Stockton) | None found | Full index 08/29/1862 to present. Deed Records 1862 to 1920 and Oil & Gas Lease Vol. 1 to 10 (1893 to 1921) are **basic index only**. | http://www.pecoscad.org (Comptroller entry last updated 2013; confirm the site) | County tax assessor-collector (county, three ISDs, Fort Stockton, groundwater district). |
 | Reeves (Pecos) | **https://reeves.tx.publicsearch.us** (official; supports index and full-text OCR search; showed "certified through 11/12/2026" when checked) | Full index 05/22/1874 to present. Plats from 03/11/1882. Deed Records Vol. A to 36 (1874 to 1912) are **basic index only**. | https://www.reeves-cad.org | County tax assessor-collector collects for Reeves County only. ISDs, cities, and districts collect separately. |
 | Upton (Rankin) | None found | **01/01/1984 to present only** | https://www.uptoncad.org (office in McCamey) | County tax office does not collect. Check the CAD. |
+| Crane (Crane) | None found | Full index 02/14/1888 to present. **Plats only 09/01/1907 to 09/28/2018.** | http://www.cranecad.org (Comptroller entry last updated 2022) | County tax assessor-collector (county, Crane ISD, City of Crane, hospital district). Crane County Water District and ESD #1 are not on the consolidated list; check them separately. |
 
 Sources: TexasFile county coverage pages (https://www.texasfile.com/texas-land-records-coverage/[county]-county-clerk/); Texas Comptroller county directory pages (https://comptroller.texas.gov/taxes/property-tax/county-directory/[county].php); Reeves County Official Records Search home page.
 
@@ -184,9 +185,10 @@ Sources: TexasFile county coverage pages (https://www.texasfile.com/texas-land-r
 1. **Reeves:** Use the official portal first. Use TexasFile as a cross-check and for older records. Cite the county portal when the image comes from it.
 2. **Callahan and Pecos:** TexasFile has an index back to the 1860s and 1870s, so a long chain is possible online. Where TexasFile marks a book as **basic index**, the entry may lack a legal description or full party names. Open and read every image from those books. Do not rule out a conveyance just because the basic index does not show your tract.
 3. **Haskell, Throckmorton, Upton:** The online index starts in 1988, 1994, and 1984. Any search period earlier than that **cannot be completed online**. Report the gap in the search certificate and recommend an in-person clerk search or a local abstract company. Prior deeds referenced inside the instruments you find (by volume and page) may still be identifiable, but you cannot confirm the absence of other instruments before the index start date.
-4. **"None found" means not found online in November 2026.** Before each job, check the county's own website and try `https://[county].tx.publicsearch.us`. Counties do add portals. If you find a new official portal, use it and tell the user so this table can be updated.
-5. **County clerk office contacts.** Third-party directories list conflicting phone numbers and addresses for several of these clerks. Do not put a clerk phone number or address in a report unless you took it from the county's own website during the job.
-6. **Taxes:** In Haskell, Throckmorton, and Upton, the county tax office does not collect property taxes. Go to the CAD to find who collects. In Reeves, the county collects only its own tax, so check each ISD, city, and district separately. Use the Comptroller page's taxing unit list as your checklist of units to clear.
+4. **Crane:** TexasFile has a full index back to 1888, so a long chain is possible online. Plats on TexasFile stop at September 2018. For any subdivision or replat recorded after that, search the grantor/grantee index for the plat by subdivision name, and if no image is available, report it as not retrieved. Crane County is on the University Lands list (Section 4B), so check University Lands for any tract before searching private chains.
+5. **"None found" means not found online in November 2026.** Before each job, check the county's own website and try `https://[county].tx.publicsearch.us`. Counties do add portals. If you find a new official portal, use it and tell the user so this table can be updated.
+6. **County clerk office contacts.** Third-party directories list conflicting phone numbers and addresses for several of these clerks. Do not put a clerk phone number or address in a report unless you took it from the county's own website during the job.
+7. **Taxes:** In Haskell, Throckmorton, and Upton, the county tax office does not collect property taxes. Go to the CAD to find who collects. In Reeves, the county collects only its own tax, so check each ISD, city, and district separately. Use the Comptroller page's taxing unit list as your checklist of units to clear.
 
 ### Adding a new county ("and more")
 
@@ -230,11 +232,11 @@ For every deed in the chain, record any reservation or exception of minerals or 
 
 - **Railroad Commission Public GIS Viewer** (https://gis.rrc.texas.gov/GISViewer/): wells, pipelines, and surveys on or near the tract. Record well API numbers, operators, and lease IDs.
 - **CAD mineral appraisal rolls:** appraisal districts in oil counties carry mineral interests as separate accounts by lease. Use these as leads to current mineral owners, not as proof of title.
-- **TexasFile mineral ownership data** covers limited years (for example, Pecos 2017 to 2021; Callahan, Reeves, and Throckmorton 2013 to 2020; Haskell and Upton 2013 to 2021). It is a lead only.
+- **TexasFile mineral ownership data** covers limited years (for example, Pecos 2017 to 2021; Callahan, Reeves, and Throckmorton 2013 to 2020; Crane, Haskell, and Upton 2013 to 2021). It is a lead only.
 
 ### State and university lands
 
-- **University Lands** (Permanent University Fund) manages about 2.1 million acres in 19 West Texas counties, including **Pecos and Upton** (https://universitylands.utsystem.edu). If a tract may be University Lands, check there first. Reeves is not on the published 19-county list.
+- **University Lands** (Permanent University Fund) manages about 2.1 million acres in 19 West Texas counties, including **Crane, Pecos, and Upton** (https://universitylands.utsystem.edu). If a tract may be University Lands, check there first. Reeves is not on the published 19-county list.
 - **General Land Office:** original patents, state-owned minerals, and state leases. Use the GLO land grant search to find the original patent and abstract for the survey. If the GLO record shows the State retained minerals, flag it for review.
 
 ### Water and other West Texas items
@@ -466,4 +468,6 @@ Tell the user about these limits in every report:
 - Comptroller directory, Pecos: https://comptroller.texas.gov/taxes/property-tax/county-directory/pecos.php
 - Comptroller directory, Reeves: https://comptroller.texas.gov/taxes/property-tax/county-directory/reeves.php
 - Comptroller directory, Upton: https://comptroller.texas.gov/taxes/property-tax/county-directory/upton.php
+- TexasFile coverage, Crane: https://www.texasfile.com/texas-land-records-coverage/crane-county-clerk/
+- Comptroller directory, Crane: https://comptroller.texas.gov/taxes/property-tax/county-directory/crane.php
 - University Lands: https://universitylands.utsystem.edu

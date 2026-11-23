@@ -1,0 +1,36 @@
+{
+  "name": "landman-experts-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Chat with the Landman Command expert team. The browser never sees the API key: Claude is called from Netlify Functions.",
+  "scripts": {
+    "agents": "node scripts/build-agents.mjs",
+    "typecheck": "tsc -p tsconfig.app.json --noEmit && tsc -p tsconfig.server.json --noEmit",
+    "build": "npm run agents && npm run typecheck && vite build",
+    "dev": "npm run agents && vite",
+    "test": "node scripts/test-functions.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.6.0",
+    "react": "19.1.10",
+    "react-dom": "19.1.10",
+    "react-markdown": "10.1.0",
+    "remark-gfm": "4.0.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@netlify/functions": "6.1.1",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.2.1",
+    "esbuild": "0.28.2",
+    "typescript": "7.0.2",
+    "vite": "8.3.6",
+    "yaml": "2.9.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

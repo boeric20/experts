@@ -1,0 +1,16 @@
+{
+  "orchestrator": "orchestrator",
+  "exclude": [
+    "ruth"
+  ],
+  "groupOrder": [
+    "Coordination",
+    "Land, title, and records",
+    "Energy and infrastructure",
+    "GIS and mapping",
+    "Data and databases",
+    "Software engineering",
+    "Quality and security",
+    "Product, documentation, and compliance"
+  ]
+}
